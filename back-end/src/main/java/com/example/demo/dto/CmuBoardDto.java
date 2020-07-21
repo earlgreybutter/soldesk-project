@@ -1,5 +1,7 @@
 package com.example.demo.dto;
 
+import java.util.Date;
+
 import lombok.Data;
 
 @Data
@@ -9,5 +11,5 @@ public class CmuBoardDto {
     private String cmuTitle;
     private String cmuContent;
     private int cmuHitCnt;
-    private String cmuCreatedDate;
+    private Date cmuCreatedDate;
 }
